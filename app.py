@@ -33,7 +33,7 @@ st.markdown("""
 .st-key-hero [data-testid="stMetricValue"] {color:#ffffff !important; font-size:1.7rem;}
 .st-key-hero [data-testid="stMetricLabel"] p {color:#bdc1c6 !important;}
 .hero-sub {text-align:center; color:#bdc1c6; font-size:1.05rem; margin:0;}
-.hero-head {text-align:center; color:#ffffff; font-size:1.9rem; font-weight:600; margin:4px 0 6px 0;}
+.hero-head {text-align:center; color:#ffffff; font-size:1.8rem; font-weight:600; margin:4px 0 6px 0;}
 .pill {display:inline-block; padding:2px 14px; border-radius:999px; font-weight:700;}
 .pill-good {background:rgba(34,197,94,.16); color:#4ade80;}
 .pill-bad {background:rgba(239,68,68,.16); color:#f87171;}
