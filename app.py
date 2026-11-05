@@ -354,7 +354,7 @@ else:
     col, title = GRID, "Staying on the grid is the lower-cost choice"
     body = (f"Over {N} years, solar would cost <b>{lakh(-res.npv)}</b> more than grid power in today's money "
             f"(PW {lakh(res.pw_solar)} vs {lakh(res.pw_grid)}).")
-st.markdown(f"<div class='verdict' style='border-color:{col}'><div style='font-size:1.15rem;font-weight:700;color:{col}'>"
+st.markdown(f"<div class='verdict' style='border-color:{col}'><div style='font-size:1.rem;font-weight:600;color:{col}'>"
             f"{title}</div><div style='margin-top:4px'>{body}</div></div>", unsafe_allow_html=True)
 
 m = st.columns(6)
