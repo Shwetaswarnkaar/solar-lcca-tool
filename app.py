@@ -335,7 +335,7 @@ with chart_ph:
         fig.add_vline(x=pb, line_dash="dot", line_color=MUTED,
                      annotation_text=f"break-even ≈ year {pb:.1f}",
 annotation_font_color="#e8eaed",
-annotation_y=pb - 2.5)
+annotation_y=pb - 0.5)
     fig.update_layout(height=380, margin=dict(l=70, r=20, t=40, b=55), paper_bgcolor="rgba(0,0,0,0)",
                       plot_bgcolor="rgba(0,0,0,0)", font=dict(color="#e8eaed"),
                       legend=dict(orientation="h", y=1.08, x=0), hovermode="x unified",
