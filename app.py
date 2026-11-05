@@ -141,7 +141,7 @@ def parse_tariff(df: pd.DataFrame):
 with st.sidebar:
     st.markdown("### Inputs")
     st.button("↺ Reset to team base case", on_click=reset_all, width="stretch")
-    st.caption("Defaults = team data workbook (Base_Inputs), Maharashtra · MSEDCL · 5 kW home.")
+    st.caption("Defaults = team data workbook (Base_Inputs)")
 
     with st.expander("🏠 Your home", expanded=True):
         st.selectbox("State · DISCOM", ["Maharashtra · MSEDCL (LT-I residential slabs)"],
